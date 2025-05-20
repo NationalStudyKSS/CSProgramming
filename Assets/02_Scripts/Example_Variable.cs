@@ -1,14 +1,14 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Example_Variable : MonoBehaviour
 {
-    public int myNum = 3;   // Á¤¼öÇü º¯¼ö myNum À» ¼±¾ğÇØ¼­ 3À» ¶§·Á¹Ú´Â´Ù...
-    public float myFloat = 0.5f;  // ½Ç¼öÇü º¯¼ö myFloatÀ» ¼±¾ğÇØ¼­ 0.5f¸¦ ¶§·Á¹Ú´Â´Ù.
-    public string myStr = "¾È³çÇÏ¼¼¿ä!!!";   //¹®ÀÚÇü º¯¼ö myStrÀ» ¼±¾ğÇØ¼­ ¾È³çÇÏ¼¼¿ä!!!¸¦ ¶§·Á¹Ú´Â´Ù...
+    public int myNum = 3;   // ì •ìˆ˜í˜• ë³€ìˆ˜ myNum ì„ ì„ ì–¸í•´ì„œ 3ì„ ë•Œë ¤ë°•ëŠ”ë‹¤...
+    public float myFloat = 0.5f;  // ì‹¤ìˆ˜í˜• ë³€ìˆ˜ myFloatì„ ì„ ì–¸í•´ì„œ 0.5fë¥¼ ë•Œë ¤ë°•ëŠ”ë‹¤.
+    public string myStr = "ì•ˆë…•í•˜ì„¸ìš”!!!";   //ë¬¸ìí˜• ë³€ìˆ˜ myStrì„ ì„ ì–¸í•´ì„œ ì•ˆë…•í•˜ì„¸ìš”!!!ë¥¼ ë•Œë ¤ë°•ëŠ”ë‹¤...
     
-    // ÄÄÇ»ÅÍ´Â ¸øº½... ÁÖ¼®ÀÌ¶ó°í ºÎ¸§...
+    // ì»´í“¨í„°ëŠ” ëª»ë´„... ì£¼ì„ì´ë¼ê³  ë¶€ë¦„...
     // Start is called before the first frame update
     void Start()
     {

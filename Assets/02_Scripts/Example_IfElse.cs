@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,24 +10,24 @@ public class Example_IfElse : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (a == 0)    // ¸¸¾à¿¡ a°¡ 0°ú °°´Ù¶ó¸é
+        if (a == 0)    // ë§Œì•½ì— aê°€ 0ê³¼ ê°™ë‹¤ë¼ë©´
         {
-            print("a´Â 0ÀÔ´Ï´Ù!!!");
+            print("aëŠ” 0ì…ë‹ˆë‹¤!!!");
         }
 
         else if (a > 0)
         {
-            print("a´Â 0º¸´Ù Å®´Ï´Ù...");
+            print("aëŠ” 0ë³´ë‹¤ í½ë‹ˆë‹¤...");
         }
 
         else if (a < 0)
         {
-            print("a´Â 0º¸´Ù ÀÛ½À´Ï´Ù...");
+            print("aëŠ” 0ë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤...");
         }
 
         else
         {
-            print("a´Â 0ÀÌ ¾Æ´Õ´Ï´Ù...");
+            print("aëŠ” 0ì´ ì•„ë‹™ë‹ˆë‹¤...");
         }
     }
 

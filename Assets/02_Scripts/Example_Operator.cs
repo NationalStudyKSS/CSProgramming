@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,19 +11,19 @@ public class Example_Operator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("µ¡¼À °á°ú");
+        print("ë§ì…ˆ ê²°ê³¼");
         c = a + b;
         print(c);
 
-        print("»¬¼À °á°ú");
+        print("ëº„ì…ˆ ê²°ê³¼");
         c = a - b;
         print(c);
 
-        print("°ö¼À °á°ú");
+        print("ê³±ì…ˆ ê²°ê³¼");
         c = a * b;
         print(c);
 
-        //print("³ª´°¼À °á°ú");
+        //print("ë‚˜ëˆ—ì…ˆ ê²°ê³¼");
         //c = a / b;
         //print(c);
     }

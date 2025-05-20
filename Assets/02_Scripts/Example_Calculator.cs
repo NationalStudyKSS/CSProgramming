@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,23 +11,23 @@ public class Example_Calculator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // ===== µ¡¼À =====
+        // ===== ë§ì…ˆ =====
         result = num1 + num2;
         print(num1 + " + " + num2 + " = " + result);
 
-        // ===== »¬¼À =====
+        // ===== ëº„ì…ˆ =====
         result = num1 - num2;
         print(num1 + " - " + num2 + " = " + result);
 
-        // ===== °ö¼À =====
+        // ===== ê³±ì…ˆ =====
         result = num1 * num2;
         print(num1 + " * " + num2 + " = " + result);
 
-        // ===== ³ª´°¼À =====
+        // ===== ë‚˜ëˆ—ì…ˆ =====
         result = (float)num1 / num2;
         print(num1 + " / " + num2 + " = " + result);
 
-        // ===== ³ª¸ÓÁö =====
+        // ===== ë‚˜ë¨¸ì§€ =====
         result = num1 % num2;
         print(num1 + " % " + num2 + " = " + result);
     }

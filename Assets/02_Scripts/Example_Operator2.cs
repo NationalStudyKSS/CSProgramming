@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,7 +16,7 @@ public class Example_Operator2 : MonoBehaviour
         print(-a);
         print(-(-a));
 
-        print(1 + 2);   // ¸®ÅÍ³Î(±ø¼ıÀÚ)
+        print(1 + 2);   // ë¦¬í„°ë„(ê¹¡ìˆ«ì)
         print(2 * (2 + 2));
     }
 

@@ -1,10 +1,10 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Example_String : MonoBehaviour
 {
-    public string myStr = "≥ª Ω∫∆Æ∏µ...";
+    public string myStr = "ÎÇ¥ Ïä§Ìä∏ÎßÅ...";
     public string a;
     public string b;
 
