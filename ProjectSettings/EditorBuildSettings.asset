@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/01_Scene/StartScene.unity
+    guid: a90a4c090e1f5454ab1f2fbec0a05734
+  - enabled: 1
     path: Assets/01_Scene/24_PooGame.unity
     guid: e2e6a6367bb34ff4192e1fad927c84b4
   m_configObjects: {}
